@@ -1,0 +1,122 @@
+html <!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bem-vindo a pagina tlou</title>
+  <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+  <div class="cabeçario">
+    <div class="menu">
+      <nav class="skew-menu">
+        <ul>
+          <li><a class="active" href="#conteudo">INFO TLOU</a></li>
+          <li><a href="#como">COMO JOGAR</a></li>
+          <li><a href="#onde">ONDE JOGAR</a></li>
+          <li><a href="#et">ESPECIFICAÇÕES TÉCNICAS</a></li>
+         
+        </ul>
+      </nav>
+    </div>
+  </div><br>
+
+  <div id="conteudo" class="principal">
+    <h1>Bem-vindo a página <div id="nome"> TLOU</div>
+    </h1>
+    <div class="subtitulo">
+      <h2> <img src="https://images7.alphacoders.com/124/thumb-350-1244875.webp"Descrição da Imagem"width="350px"height="190px">
+      </h2>
+    </div>
+    <button class="planos">The Last of Us é um jogo eletrônico lançado em 2013, é um jogo pós-apocalíptico de ação-aventura e sobrevivência apresentado a partir de uma perspectiva em terceira pessoa. </button>
+  </div>
+
+  <div id="como" class="segundo">
+    <div class="imagem"></div>
+    <h1>Como se joga  <div id="nome"> TLOU?</div>
+    </h1>
+    <div class="explicação">
+     < <h2>ENCARE A JORNADA PELA SOBREVIVÊNCIA DE JOEL E ELLIE NA SÉRIE THE LAST OF US</div>
+
+Vencedora de mais de 500 prêmios Jogo do Ano, a série The Last of Us é aclamada pela crítica por sua narrativa emocionante, personagens inesquecíveis e jogabilidade de ação/aventura cheia de suspense.
+
+Décadas após a pandemia do vírus cordíceps ter arrasado os Estados Unidos, facções implacáveis e infectados são uma ameaça constante aos sobreviventes. O rude contrabandista Joel foi encarregado de escoltar a adolescente Ellie para a segurança. Embora Joel esteja traumatizado pelo passado, a viagem brutal pelo país lhe dá "algo pelo que lutar".
+
+Cinco anos depois, Joel e Ellie se estabelecem em Jackson, Wyoming. Quando um terrível incidente abala a comunidade, Ellie embarca numa jornada incansável em busca de justiça e superação. Os perigos com que ela se depara não são seu único obstáculo; ela também precisa lidar com as repercussões das próprias ações.
+      </h2>
+    </div>
+  </div>
+
+  <div id="onde" class="vc">
+    <h1>Em que dispositivos posso jogar tlou?</h1>
+    <div class="cont">
+      <div class="pq">PC:TLOU pode ser jogado em pc através da steam ou  Epic Games Store.</div>
+      <div class="pq">CONSOLE: pode ser jogado no PS4 E PS5
+        
+      </div>
+    </div>
+  </div>
+
+  <div id="et" class="avaliação">
+    <h3>Especificações técnicas</h3>
+    <section class="cards">
+      <div class="card">
+        <img class="user">
+        <h3>Dispositivos Móveis:</h3>
+        <div class="stars">
+          <p>PC: SO: Windows 10 (Version 1909 or Newer) Processador: AMD Ryzen 5 3600X, Intel Core i7-8700. Memória: 16 GB de RAM. Placa de vídeo: AMD Radeon RX 5700 XT (8 GB), AMD Radeon RX 6600 XT (8 GB), NVIDIA GeForce RTX 2070 SUPER (8 GB), NVIDIA GeForce RTX 3060 (8 GB)</p>
+
+          
+      
+        </div>
+      </div>
+    
+
+      <div class="card">
+        <img class="user"
+        <h3>Console</h3>
+        <div class="stars">
+      
+        <p>PS4 e PS5</p>
+      </div></div>
+  </div>
+  </section>
+  <DIV class="DUV">
+   
+  </DIV>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/z2XS_RryJGk?si=D85rTvJG18Xp2QYQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+  <div id="rodape"><footer>
+    <p>&copy; 2024 TRABALHO DE COMPUTAÇÃO GRAFICA<br><br>
+            TRANALHO DE KAUANY.<br>
+            TURMA: 3 A TDS<br>
+            NÚMERO: 08<br>
+           TEMA ESCOLHIDO: THE LAST OF US<br>
+ </p>
+
+  </footer>
+  <script>
+    const toggleButtons = document.querySelectorAll('.toggle-button');
+
+        toggleButtons.forEach(button => {
+            button.addEventListener('click', () => {
+                const answer = button.previousElementSibling;
+                if (answer.style.display === 'none' || answer.style.display === '') {
+                    answer.style.display = 'block';
+                    button.textContent = '-';
+                } else {
+                    answer.style.display = 'none';
+                    button.textContent = '+';
+                }
+            });
+        });
+  </script>
+
+
+</body>
+
+</html>
